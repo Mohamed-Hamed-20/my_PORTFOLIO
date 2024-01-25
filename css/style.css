@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-image: url(../Images/pexels-veeterzy-303383.jpg);
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+}
+
+.layer {
+  background-color: rgba(13, 36, 36, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+a {
+  text-decoration: none;
+  color: rgb(246, 246, 246);
+  font-size: 14px;
+  font-weight: bold;
+}
+body {
+  background-color: #333;
+}
+.team_logos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  background-color: #333;
+}
+
+ul li a:hover {
+  color: crimson;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+.navbar h2 {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 992px) {
+  ul {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 777px) {
+  .navbar {
+    flex-direction: column;
+    background-color: rgba(136, 144, 144, 0.9);
+  }
+  ul {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  li {
+    padding: 5px 0px;
+  }
+}
+
+.header-content h1 {
+  color: crimson;
+  cursor: pointer;
+}
+
+.header-content span {
+  text-transform: capitalize;
+}
